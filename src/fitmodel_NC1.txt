@@ -1,0 +1,7 @@
+NC1_preprocessedData_allChrs.mat
+C:\Users\Darshan\Documents\MATLAB\Transposable Elements\TE Insertion Bias\Data
+C:\Users\Darshan\Documents\MATLAB\Transposable Elements\TE Insertion Bias\Multiplicative Model Intervals\Results\New_Comparison_1
+NC1_SBC.mat
+SBC
+NA
+NA

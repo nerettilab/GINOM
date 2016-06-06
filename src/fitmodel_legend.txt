@@ -1,0 +1,17 @@
+Filename of preprocessed data (line 7 of corresponding preprocess txt file)
+Path containing data files
+Path to save output file
+Output filename
+Select information criterion (AIC or SBC. Set to NA for no model selection)
+Max order of reference intersection (Set to NA to not consider) 
+Combos (Explicitly define which reference interactions to consider in the model.
+	Put NA to not consider. Otherwise put series of 0's and 1's on each line
+	to define each interaction.) 
+Example:
+10000
+01000
+00100
+00010
+00001
+01100
+00011

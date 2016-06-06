@@ -1,0 +1,8 @@
+Filename of reference interval sets
+Filename of query interval set
+Filename of mappable intervals
+Filename of chromosome lengths
+Path containing data files
+Path to save output file
+Output filename
+Chromosomes to test (numbers separated by commas. Chrs X and Y are numbered as the second to last and last indexed chromosome, respectively.)
