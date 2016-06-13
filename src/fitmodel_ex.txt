@@ -1,0 +1,7 @@
+preprocessedData_ex.mat
+C:\Users\Darshan\Desktop\GINOM\mat_files
+C:\Users\Darshan\Desktop\GINOM\mat_files
+fitmodel_ex.mat
+SBC
+NA
+NA

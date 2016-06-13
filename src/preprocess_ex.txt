@@ -1,0 +1,8 @@
+reference_ex.mat
+query_ex.mat
+mappability_human.mat
+Chr_lengths_human.mat
+C:\Users\Darshan\Desktop\GINOM\mat_files
+C:\Users\Darshan\Desktop\GINOM\mat_files
+preprocessedData_ex.mat
+1
