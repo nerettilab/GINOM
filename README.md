@@ -5,11 +5,13 @@ Example workflow:
 
 Step 1) Convert .bed files to .mat files. 
 
-Download a .bed file for the desired query interval set as well as a .bed file for each reference interval set. Save each .bed file as an excel file (.xlsx). Use the script run_CreateMatFromExcel.m to convert these spreadsheets to .mat files, which will be used later as input to a data preprocessing function. Instructions for run_CreateMatFromExcel.m are the following: 
+Download a .bed file for the desired query interval set as well as a .bed file for each reference interval set. Save each .bed file as an excel file (.xlsx). Use the script run_CreateMatFromExcel.m to convert these spreadsheets to .mat files, which will be used later as input to a data preprocessing function.
+
+Importantly, it must be noted that, depending on the argument specified in this script, it calls one of two other scripts: CreateQueryMatFromExcel.m and CreateReferenceMatFromExcel.m.  These scripts, in the form distributed on this site, are written for use on a Windows machine.  To modify them for use on another operating system, it is necessary to change one line in each of these files.  For CreateQueryMatFromExcel.m, change line 8 to 'save([output_path '/' output_filename],'Q');'.  For CreateReferenceMatFromExcel.m, change line 27 to 'save([output_path '/' output_filename],'R');'.  Windows users should not make any changes to these scripts.
+
+Instructions for run_CreateMatFromExcel.m are the following: 
 
 a) Set query_or_reference equal to 'query', and then set output_path equal to the path where you wish to store the query interval .mat file to be created. Within the first if-statement, set data_path equal to the path where your query interval excel spreadsheet is stored, and set input_filename to the query interval file name in the format 'filename.xlsx'. Set output_filename to the file name of the .mat file to be created in the format 'filename.mat'. 
-
-Importantly, depending on the specified argument, this script calls one of two other scripts: CreateQueryMatFromExcel.m and CreateReferenceMatFromExcel.m.  These scripts, in the form distributed on this site, are written for use on a Windows machine.  To modify them for use on another operating system, it is necessary to change one line in each of these files.  For CreateQueryMatFromExcel.m, change line 8 to 'save([output_path '/' output_filename],'Q');'.  For CreateReferenceMatFromExcel.m, change line 27 to 'save([output_path '/' output_filename],'R');'.  Windows users should not make any changes to these scripts.
 
 Run the script. The function CreateQueryMatFromExcel.m will perform the file conversion and save the .mat file in the specified location.
 
