@@ -109,7 +109,7 @@ disp('Saving results')
 tic
 theta_hat=theta_hat(param_ind==1);
 pi=pi(param_ind==1,:);
-save([output_path '\' output_name],'theta_hat','pvals','CI','g','pi','b');
+save([output_path filesep output_name],'theta_hat','pvals','CI','g','pi','b');
 toc
 time(timeidx)=toc;
 disp(' ');

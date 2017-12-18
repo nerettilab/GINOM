@@ -5,4 +5,4 @@ C=importdata(input_filename);
 Q.Chr=C.textdata(:,1);
 Q.Start=C.data(:,1);
 Q.End=C.data(:,2);
-save([output_path '\' output_filename],'Q');
+save([output_path filesep output_filename],'Q');

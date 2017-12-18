@@ -24,4 +24,4 @@ for i=1:n
     R(i).End=C.data(:,2);
 end
 
-save([output_path '\' output_filename],'R');
+save([output_path filesep output_filename],'R');
